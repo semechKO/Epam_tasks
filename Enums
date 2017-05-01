@@ -1,0 +1,28 @@
+enum Superheroes{Batman("Joker","DC"),
+        Spiderman("Green Goblin","Marvel"),
+        Superman("Lex Lutor","DC"),
+        Wolverine("Magneto","Marvel");
+
+    private String enemy;
+    private String universe;
+
+    Superheroes(String enemy, String universe){
+        this.enemy=enemy;
+        this.universe=universe;
+    }
+
+    public void ShortInformation(){
+        System.out.println(this.name()+" is fighting against "+this.enemy+" in "+this.universe+" universe");
+    }
+    public void AllFaceOff(){
+        for(Superheroes hero:Superheroes.values()){
+            System.out.println(hero.name()+" fights against "+hero.enemy);
+        }
+    }
+
+    public static void main(String[] args) {
+        Superheroes hero = Batman;
+        hero.ShortInformation();
+        hero.AllFaceOff();
+    }
+    }
