@@ -1,8 +1,6 @@
 package com.example.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import ru.yandex.qatools.htmlelements.element.*;
@@ -17,34 +15,47 @@ public class SearchPage {
 
     private WebDriver driver;
 
-    @FindBy(xpath = ".//*[@id=\'see-all-form\']/div/input")
+    private static final String ACCEPT_BUTTON_LOCATOR = ".//*[@id='see-all-form']/div/input";
+    private static final String BEST_PRICE_CHECKBOX_LOCATOR = ".//*[@id='LH_BO_1']";
+    private static final String SHOW_ALL_BUTTON_LOCATOR = ".//*[@id='e1-43']/div[1]/span[2]/button";
+    private static final String SOLD_ITEM_CHECKBOX_LOCATOR = ".//*[@id='e1-48']";
+    private static final String PURCHASE_RERURN_LOCATOR = ".//*[@id='e1-44']";
+    private static final String SEARCH_RESULTS_LOCATOR = ".//*[@id='ListViewInner']/li/h3/a";
+    private static final String SEARCH_ARROW_LOCATOR = "//*[@id='gh-ac']";
+    private static final String USA_CHECKBOX_LOCATOR = ".//*[@id='e1-32']";
+    private static final String FREE_INTERNATIONAL_DELIVERY_CHECKBOX_LOCATOR = "//*[@id='e1-41']";
+    private static final String USED_CONDITION_CHECKBOX_LOCATOR = ".//*[@id='e1-17']";
+    private static final String LOW_PRICE_INPUT_LOCATOR = ".//*[@id='e1-7']";
+    private static final String HIGH_PRICE_INPUT_LOCATOR = ".//*[@id='e1-8']";
+    private static final String PRICE_SEARCH_BUTTON_LOCATOR = ".//*[@id='e1-20']";
+
+    @FindBy(xpath = ACCEPT_BUTTON_LOCATOR)
     private Button accept_button;
-    @FindBy(xpath = ".//*[@id=\'LH_BO_1\']")
+    @FindBy(xpath = BEST_PRICE_CHECKBOX_LOCATOR)
     private CheckBox best_price_checkbox;
-    @FindBy(xpath = ".//*[@id=\'e1-43\']/div[1]/span[2]/button")
+    @FindBy(xpath = SHOW_ALL_BUTTON_LOCATOR)
     private Button show_all_button;
-    @FindBy(xpath = ".//*[@id=\'e1-48\']")
+    @FindBy(xpath = SOLD_ITEM_CHECKBOX_LOCATOR)
     private CheckBox sold_item_checkbox;
-    @FindBy(xpath = ".//*[@id=\'e1-44\']")
+    @FindBy(xpath = PURCHASE_RERURN_LOCATOR)
     private CheckBox purchase_return_checkbox;
-    @FindBy(xpath = ".//*[@id=\'ListViewInner\']/li/h3/a")
+    @FindBy(xpath = SEARCH_RESULTS_LOCATOR)
     private SearchResults search_results;
-    @FindBy(xpath = "//*[@id=\'gh-ac\']")
+    @FindBy(xpath = SEARCH_ARROW_LOCATOR)
     private SearchArrow searchArrow;
-    @FindBy(xpath =".//*[@id=\'e1-32\']" )
+    @FindBy(xpath =USA_CHECKBOX_LOCATOR )
     private CheckBox country_USA;
-    @FindBy(xpath = "//*[@id=\'e1-41\']")
+    @FindBy(xpath = FREE_INTERNATIONAL_DELIVERY_CHECKBOX_LOCATOR)
     private CheckBox free_international_delivery_checkbox;
-    @FindBy(xpath = ".//*[@id=\'e1-17\']")
+    @FindBy(xpath = USED_CONDITION_CHECKBOX_LOCATOR)
     private CheckBox used_condition_checkbox;
-    @FindBy(xpath = ".//*[@id=\'e1-7\']")
+    @FindBy(xpath = LOW_PRICE_INPUT_LOCATOR)
     private TextInput low_price_input;
-    @FindBy(xpath = ".//*[@id=\'e1-8\']")
+    @FindBy(xpath = HIGH_PRICE_INPUT_LOCATOR)
     private TextInput high_price_input;
-    @FindBy(xpath = ".//*[@id=\'e1-20\']")
+    @FindBy(xpath = PRICE_SEARCH_BUTTON_LOCATOR)
     private Button search_by_price_button;
-    private double high_price;
-    private double low_price;
+
 
     /**
      * Method initialize search page
@@ -53,22 +64,6 @@ public class SearchPage {
     public SearchPage(WebDriver driver) {
         PageFactory.initElements(new HtmlElementDecorator(driver), this);
         this.driver = driver;
-    }
-
-    /**
-     * Method returns high price
-     * @return double
-     */
-    public double getHigh_price(){
-        return this.high_price;
-    }
-
-    /**
-     * Method returns low price
-     * @return double
-     */
-    public double getLow_price(){
-        return this.low_price;
     }
 
     public SearchPage searchFor(String request) {
@@ -100,11 +95,9 @@ public class SearchPage {
      * @param high_price
      * @return search page
      */
-    public SearchPage checkPriceFilter(String low_price,String high_price){
-        low_price_input.sendKeys(low_price);
-        high_price_input.sendKeys(high_price);
-        this.high_price=Double.parseDouble(high_price);
-        this.low_price=Double.parseDouble(low_price);
+    public SearchPage checkPriceFilter(Double low_price,Double high_price){
+        low_price_input.sendKeys(low_price.toString());
+        high_price_input.sendKeys(high_price.toString());
         search_by_price_button.click();
         return this;
     }
@@ -155,6 +148,5 @@ public class SearchPage {
         SearchResults searchResults=new SearchResults();
         searchResults.setSearchResults(driver);
         return this.search_results=searchResults;
-        //return this.searchResults.getItemsSearchPageResult(driver);
     }
 }
