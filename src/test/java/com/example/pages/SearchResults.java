@@ -13,19 +13,25 @@ import java.util.List;
 /**
  * Created Class SearchResults  set and returns Arrays with items id's and links
  */
-public class SearchResults {
+public class SearchResults extends Page {
     //private WebDriver driver;
     private List<WebElement>itemsSearchPageResultforId;
     private List<WebElement>getItemsSearchPageResultforLinks;
     private ArrayList links=new ArrayList();
     private ArrayList id=new ArrayList();
+    final static String PAGE_RESULTS_IDS_LOCATOR=".//*[@class='sresult lvresult clearfix li']";
+    final static String PAGE_RESULTS_LINKS_LOCATOR=".//*[@id='ListViewInner']/li/h3/a";
+
+    public SearchResults(WebDriver driver) {
+        super(driver);
+    }
 
     /**
      * Method sets Lists with web elements for items Id's and links
      */
     public void setSearchResults(WebDriver driver) {
-        this.itemsSearchPageResultforId=driver.findElements(By.xpath(".//*[@class=\'sresult lvresult clearfix li\']"));
-        this.getItemsSearchPageResultforLinks = driver.findElements(By.xpath(".//*[@id=\'ListViewInner\']/li/h3/a"));
+        this.itemsSearchPageResultforId=driver.findElements(By.xpath(PAGE_RESULTS_IDS_LOCATOR));
+        this.getItemsSearchPageResultforLinks = driver.findElements(By.xpath(PAGE_RESULTS_LINKS_LOCATOR));
         this.setItems();
     }
 

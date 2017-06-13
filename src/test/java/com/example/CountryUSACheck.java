@@ -15,10 +15,13 @@ import java.util.List;
  */
 public class CountryUSACheck extends TestNgTestBase {
 
+    HomePage homePage;
+    SearchPage page;
+
     @Test
     public void testCountryUSACheck() {
-        HomePage homePage = new HomePage(driver,baseUrl);
-        SearchPage page = homePage.searchFor("Сфинкс");
+        homePage = new HomePage(driver,baseUrl);
+        page = homePage.searchFor("Сфинкс");
         page.countryUSAFilterSelect();
         List items = page.getSearchResults().getId();
         WebElement result;

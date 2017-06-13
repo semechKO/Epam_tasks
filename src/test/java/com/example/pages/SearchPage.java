@@ -11,13 +11,13 @@ import java.util.List;
 /**
  * Created by Dmitriy on 24.05.2017.
  */
-public class SearchPage {
+public class SearchPage extends Page {
 
-    private WebDriver driver;
+   // private WebDriver driver;
 
     private static final String ACCEPT_BUTTON_LOCATOR = ".//*[@id='see-all-form']/div/input";
     private static final String BEST_PRICE_CHECKBOX_LOCATOR = ".//*[@id='LH_BO_1']";
-    private static final String SHOW_ALL_BUTTON_LOCATOR = ".//*[@id='e1-43']/div[1]/span[2]/button";
+    private static final String SHOW_ALL_BUTTON_LOCATOR = ".//*[@id='e1-46']/div[1]/span[2]/button";
     private static final String SOLD_ITEM_CHECKBOX_LOCATOR = ".//*[@id='e1-48']";
     private static final String PURCHASE_RERURN_LOCATOR = ".//*[@id='e1-44']";
     private static final String SEARCH_RESULTS_LOCATOR = ".//*[@id='ListViewInner']/li/h3/a";
@@ -62,8 +62,9 @@ public class SearchPage {
      * @param driver
      */
     public SearchPage(WebDriver driver) {
-        PageFactory.initElements(new HtmlElementDecorator(driver), this);
-        this.driver = driver;
+        //PageFactory.initElements(new HtmlElementDecorator(driver), this);
+        //this.driver = driver;
+        super(driver);
     }
 
     public SearchPage searchFor(String request) {
@@ -145,7 +146,7 @@ public class SearchPage {
      * @return SeachResults
      */
     public SearchResults getSearchResults() {
-        SearchResults searchResults=new SearchResults();
+        SearchResults searchResults=new SearchResults(driver);
         searchResults.setSearchResults(driver);
         return this.search_results=searchResults;
     }

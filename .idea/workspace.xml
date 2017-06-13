@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f79f5e3-14c6-4266-a117-1ca80d39e0c6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/CountryUSACheck.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/CountryUSACheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/FreeDeliveryCheck.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/FreeDeliveryCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/PriceFilter.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/PriceFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/PurchaseReturnCheck.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/PurchaseReturnCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/SoldItemCheck.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/SoldItemCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/UsedItemCheck.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/UsedItemCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/SearchArrow.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/SearchArrow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/SearchPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/SearchPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/pages/SearchResults.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pages/SearchResults.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/BestPriceFilterCheck.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/BestPriceFilterCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/CountryUSACheck.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/CountryUSACheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/FreeDeliveryCheck.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/FreeDeliveryCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/PriceFilter.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/PriceFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/PurchaseReturnCheck.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/PurchaseReturnCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/SoldItemCheck.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/SoldItemCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/UsedItemCheck.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/UsedItemCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/SearchArrow.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/SearchArrow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/SearchPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/SearchPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/pages/SearchResults.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/pages/SearchResults.java" />
     </list>
     <ignored path="qaLabHomework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,25 +46,29 @@
       <file leaf-file-name="FreeDeliveryCheck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FreeDeliveryCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="e#1079#1080#0" expanded="false" />
-                <element signature="e#1107#1108#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestPriceFilterCheck.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BestPriceFilterCheck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/BestPriceFilterCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-              <folding>
-                <element signature="e#1161#1162#0" expanded="false" />
-                <element signature="e#1195#1196#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,13 +76,9 @@
       <file leaf-file-name="SoldItemCheck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/SoldItemCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1393#1394#0" expanded="false" />
-                <element signature="e#1427#1428#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,12 +86,9 @@
       <file leaf-file-name="PurchaseReturnCheck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/PurchaseReturnCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="e#1229#1230#0" expanded="false" />
-                <element signature="e#1263#1264#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,14 +96,11 @@
       <file leaf-file-name="SearchResults.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/SearchResults.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
+            <state relative-caret-position="162">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1331#1332#0" expanded="false" />
-                <element signature="e#1364#1365#0" expanded="false" />
-                <element signature="e#1478#1479#0" expanded="false" />
-                <element signature="e#1508#1509#0" expanded="false" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,21 +109,9 @@
       <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="149" column="49" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
+            <state relative-caret-position="537">
+              <caret line="149" column="42" selection-start-line="149" selection-start-column="42" selection-end-line="149" selection-end-column="42" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchArrow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/SearchArrow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,21 +119,18 @@
       <file leaf-file-name="PriceFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/PriceFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-              <folding>
-                <element signature="e#1619#1620#0" expanded="false" />
-                <element signature="e#1653#1654#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsedItemCheck.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsedItemCheck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/UsedItemCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="391">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,12 +141,9 @@
       <file leaf-file-name="CountryUSACheck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/CountryUSACheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="e#1133#1134#0" expanded="false" />
-                <element signature="e#1167#1168#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,16 +177,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/SampleTestNgTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/util/UsedItemCheck.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/util/PriceFilter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/pages/SearchResults.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/pages/SearchArrow.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/SoldItemCheck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/PurchaseReturnCheck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/FreeDeliveryCheck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/CountryUSACheck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/PriceFilter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/pages/SearchArrow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/pages/SearchResults.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/BestPriceFilterCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/CountryUSACheck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/FreeDeliveryCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/PriceFilter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/PurchaseReturnCheck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/SoldItemCheck.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/UsedItemCheck.java" />
       </list>
     </option>
@@ -204,10 +199,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -234,8 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,7 +337,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,7 +350,7 @@
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UsedItemCheck">
+  <component name="RunManager" selected="TestNG.BestPriceFilterCheck.testBestPriceFilter">
     <configuration default="false" name="PriceFilter.testPriceFilterCheck" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -389,7 +384,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="UsedItemCheck.testUsedItemCheck" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UsedItemCheck" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
@@ -402,72 +397,6 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.example" />
       <option name="MAIN_CLASS_NAME" value="com.example.UsedItemCheck" />
-      <option name="METHOD_NAME" value="testUsedItemCheck" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="UsedItemCheck.testUsedItemCheck (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="qaLabHomework" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.UsedItemCheck" />
-      <option name="METHOD_NAME" value="testUsedItemCheck" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="PriceFilter" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="qaLabHomework" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.PriceFilter" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -488,7 +417,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="UsedItemCheck" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BestPriceFilterCheck.testBestPriceFilter" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
@@ -500,7 +429,73 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.UsedItemCheck" />
+      <option name="MAIN_CLASS_NAME" value="com.example.BestPriceFilterCheck" />
+      <option name="METHOD_NAME" value="testBestPriceFilter" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="BestPriceFilterCheck.testBestPriceFilter (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="qaLabHomework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.BestPriceFilterCheck" />
+      <option name="METHOD_NAME" value="testBestPriceFilter" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="BestPriceFilterCheck" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="qaLabHomework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.BestPriceFilterCheck" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -791,18 +786,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TestNG.SampleTestNgTest" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.PriceFilter.testPriceFilterCheck" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.UsedItemCheck.testUsedItemCheck" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.UsedItemCheck.testUsedItemCheck (1)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.PriceFilter" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.UsedItemCheck" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.UsedItemCheck" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.BestPriceFilterCheck.testBestPriceFilter" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.BestPriceFilterCheck.testBestPriceFilter (1)" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.BestPriceFilterCheck" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.UsedItemCheck" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.PriceFilter.testPriceFilterCheck" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.PriceFilter" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.UsedItemCheck.testUsedItemCheck (1)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.UsedItemCheck.testUsedItemCheck" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.BestPriceFilterCheck.testBestPriceFilter" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.BestPriceFilterCheck" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.BestPriceFilterCheck.testBestPriceFilter (1)" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.UsedItemCheck" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.PriceFilter.testPriceFilterCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -823,65 +818,65 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PriceFilter - 2017.06.04 at 23h 31m 40s.xml">
-      <configuration name="PriceFilter" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck - 2017.06.13 at 23h 13m 50s.xml">
+      <configuration name="BestPriceFilterCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PriceFilter_testPriceFilterCheck - 2017.05.31 at 22h 49m 02s.xml">
-      <configuration name="PriceFilter.testPriceFilterCheck" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck - 2017.06.13 at 23h 14m 42s.xml">
+      <configuration name="BestPriceFilterCheck" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PriceFilter_testPriceFilterCheck - 2017.05.31 at 22h 50m 44s.xml">
-      <configuration name="PriceFilter.testPriceFilterCheck" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck_testBestPriceFilter - 2017.06.13 at 22h 52m 19s.xml">
+      <configuration name="BestPriceFilterCheck.testBestPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PriceFilter_testPriceFilterCheck - 2017.05.31 at 22h 51m 40s.xml">
-      <configuration name="PriceFilter.testPriceFilterCheck" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck_testBestPriceFilter - 2017.06.13 at 22h 53m 59s.xml">
+      <configuration name="BestPriceFilterCheck.testBestPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PriceFilter_testPriceFilterCheck - 2017.05.31 at 22h 52m 49s.xml">
-      <configuration name="PriceFilter.testPriceFilterCheck" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck_testBestPriceFilter - 2017.06.13 at 23h 00m 41s.xml">
+      <configuration name="BestPriceFilterCheck.testBestPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PriceFilter_testPriceFilterCheck - 2017.05.31 at 22h 54m 17s.xml">
-      <configuration name="PriceFilter.testPriceFilterCheck" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck_testBestPriceFilter - 2017.06.13 at 23h 05m 53s.xml">
+      <configuration name="BestPriceFilterCheck.testBestPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PriceFilter_testPriceFilterCheck - 2017.06.04 at 23h 32m 52s.xml">
-      <configuration name="PriceFilter.testPriceFilterCheck" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck_testBestPriceFilter - 2017.06.13 at 23h 08m 10s.xml">
+      <configuration name="BestPriceFilterCheck.testBestPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsedItemCheck - 2017.06.05 at 00h 02m 44s.xml">
-      <configuration name="UsedItemCheck" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck_testBestPriceFilter - 2017.06.13 at 23h 13m 06s.xml">
+      <configuration name="BestPriceFilterCheck.testBestPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsedItemCheck_testUsedItemCheck - 2017.05.31 at 22h 33m 42s.xml">
-      <configuration name="UsedItemCheck.testUsedItemCheck" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck_testBestPriceFilter - 2017.06.13 at 23h 15m 06s.xml">
+      <configuration name="BestPriceFilterCheck.testBestPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsedItemCheck_testUsedItemCheck_(1) - 2017.05.31 at 22h 34m 35s.xml">
-      <configuration name="UsedItemCheck.testUsedItemCheck (1)" configurationId="TestNG" />
+    <history-entry file="BestPriceFilterCheck_testBestPriceFilter_(1) - 2017.06.13 at 23h 10m 09s.xml">
+      <configuration name="BestPriceFilterCheck.testBestPriceFilter (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1038" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32649842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -914,25 +909,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/CountryUSACheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#1133#1134#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FreeDeliveryCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#1079#1080#0" expanded="false" />
-            <element signature="e#1107#1108#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,10 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#1161#1162#0" expanded="false" />
-            <element signature="e#1195#1196#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -951,11 +929,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1393#1394#0" expanded="false" />
-            <element signature="e#1427#1428#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -963,10 +937,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1263#1264#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -974,13 +945,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1331#1332#0" expanded="false" />
-            <element signature="e#1364#1365#0" expanded="false" />
-            <element signature="e#1478#1479#0" expanded="false" />
-            <element signature="e#1508#1509#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -996,9 +961,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,10 +969,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="e#1619#1620#0" expanded="false" />
-            <element signature="e#1653#1654#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,10 +987,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#1133#1134#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,10 +995,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="1" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#1079#1080#0" expanded="false" />
-            <element signature="e#1107#1108#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,10 +1003,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="28" column="7" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1263#1264#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,11 +1011,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="31" column="7" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1393#1394#0" expanded="false" />
-            <element signature="e#1427#1428#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,13 +1019,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1331#1332#0" expanded="false" />
-            <element signature="e#1364#1365#0" expanded="false" />
-            <element signature="e#1478#1479#0" expanded="false" />
-            <element signature="e#1508#1509#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,9 +1050,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,10 +1058,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#1619#1620#0" expanded="false" />
-            <element signature="e#1653#1654#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,10 +1076,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="39" column="9" selection-start-line="39" selection-start-column="6" selection-end-line="41" selection-end-column="57" />
-          <folding>
-            <element signature="e#1079#1080#0" expanded="false" />
-            <element signature="e#1107#1108#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,10 +1099,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1619#1620#0" expanded="false" />
-            <element signature="e#1653#1654#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,13 +1107,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1331#1332#0" expanded="false" />
-            <element signature="e#1364#1365#0" expanded="false" />
-            <element signature="e#1478#1479#0" expanded="false" />
-            <element signature="e#1508#1509#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,14 +1150,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/util/FreeInternationalDeliveryCheck.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1364">
@@ -1242,126 +1158,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/TestNgTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="289">
           <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="149" column="49" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/PriceFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/SuiteRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="e#1619#1620#0" expanded="false" />
-            <element signature="e#1653#1654#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/SearchResults.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1331#1332#0" expanded="false" />
-            <element signature="e#1364#1365#0" expanded="false" />
-            <element signature="e#1478#1479#0" expanded="false" />
-            <element signature="e#1508#1509#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-93">
+          <caret line="547" column="0" selection-start-line="547" selection-start-column="0" selection-end-line="547" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/SearchArrow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="10">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/PurchaseReturnCheck.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1263#1264#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/SoldItemCheck.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/SearchResults.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="162">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1393#1394#0" expanded="false" />
-            <element signature="e#1427#1428#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FreeDeliveryCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#1079#1080#0" expanded="false" />
-            <element signature="e#1107#1108#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/CountryUSACheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#1133#1134#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/BestPriceFilterCheck.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/FreeDeliveryCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/PriceFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#1161#1162#0" expanded="false" />
-            <element signature="e#1195#1196#0" expanded="false" />
-          </folding>
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/PurchaseReturnCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/SoldItemCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/UsedItemCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        <state relative-caret-position="391">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="149" column="42" selection-start-line="149" selection-start-column="42" selection-end-line="149" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/BestPriceFilterCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

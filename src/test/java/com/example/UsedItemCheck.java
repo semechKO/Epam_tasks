@@ -15,11 +15,13 @@ import java.util.List;
  */
 public class UsedItemCheck extends TestNgTestBase {
 
+    HomePage homePage;
+    SearchPage page;
 
     @Test
     public void testUsedItemCheck() {
-        HomePage homePage = new HomePage(driver,baseUrl);
-        SearchPage page = homePage.searchFor("Сфинкс");
+        homePage = new HomePage(driver,baseUrl);
+        page = homePage.searchFor("Сфинкс");
         page.usedConditionSelect();
         List items = page.getSearchResults().getLinks();
         WebElement result;

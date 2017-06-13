@@ -16,10 +16,13 @@ import java.util.List;
  */
 public class PurchaseReturnCheck extends TestNgTestBase{
 
+    HomePage homePage;
+    SearchPage page;
+
     @Test
     public void testPurchaseReturnCheck() {
-        HomePage homePage = new HomePage(driver,baseUrl);
-        SearchPage page = homePage.searchFor("Сфинкс");
+        homePage = new HomePage(driver,baseUrl);
+        page = homePage.searchFor("Сфинкс");
         page.purchaseReturnCheckboxSelect();
         List items = page.getSearchResults().getLinks();
         WebElement result;

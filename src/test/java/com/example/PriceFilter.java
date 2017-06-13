@@ -16,13 +16,15 @@ import java.util.List;
  */
 public class PriceFilter extends TestNgTestBase {
 
+    HomePage homePage;
+    SearchPage page;
 
     @Test
     public void testPriceFilterCheck() {
         final double high_price=15000;
         final double low_price=10000;
-        HomePage homePage = new HomePage(driver,baseUrl);
-        SearchPage page = homePage.searchFor("Сфинкс");
+        homePage = new HomePage(driver,baseUrl);
+        page = homePage.searchFor("Сфинкс");
         page.checkPriceFilter(low_price,high_price);
         List items = page.getSearchResults().getId();
         WebElement result;

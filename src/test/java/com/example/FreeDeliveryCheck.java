@@ -16,10 +16,13 @@ import java.util.List;
  */
 public class FreeDeliveryCheck extends TestNgTestBase {
 
+  HomePage homePage;
+  SearchPage page;
+
   @Test
   public void testFreeDeliveryCheck() {
-    HomePage homePage = new HomePage(driver,baseUrl);
-    SearchPage page = homePage.searchFor("Сфинкс");
+    homePage = new HomePage(driver,baseUrl);
+    page = homePage.searchFor("Сфинкс");
     page.ebayFilterSelectFreeInternationalDelivery();
     List items = page.getSearchResults().getId();
     WebElement result;

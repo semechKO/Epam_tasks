@@ -20,11 +20,13 @@ import java.util.List;
 public class SoldItemCheck extends TestNgTestBase{
 
     public static DateFormat item_sell_date_format = new SimpleDateFormat("MM.dd HH:mm");
+    HomePage homePage;
+    SearchPage page;
 
     @Test
     public void testFreeDeliveryCheck() throws ParseException {
-        HomePage homePage = new HomePage(driver,baseUrl);
-        SearchPage page = homePage.searchFor("Сфинкс");
+        homePage = new HomePage(driver,baseUrl);
+        page = homePage.searchFor("Сфинкс");
         page.soldItemFilterCheckboxSelect();
         List items = page.getSearchResults().getId();
         WebElement result;

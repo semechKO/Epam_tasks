@@ -14,11 +14,13 @@ import java.util.List;
  * Class BestPriceFilterCheck checks best price filter
  */
 public class BestPriceFilterCheck extends TestNgTestBase {
+     private HomePage homePage;
+     private SearchPage page;
 
     @Test
     public void testBestPriceFilter() {
-        HomePage homePage = new HomePage(driver,baseUrl);
-        SearchPage page = homePage.searchFor("Сфинкс");
+        homePage = new HomePage(driver,baseUrl);
+        page = homePage.searchFor("Сфинкс");
         page.bestPriceFilterSelect();
         List items = page.getSearchResults().getId();
         WebElement result;

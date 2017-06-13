@@ -11,11 +11,14 @@ import ru.yandex.qatools.htmlelements.element.TextInput;
  */
 public class SearchArrow extends HtmlElement{
 
-        @FindBy(xpath = "//*[@id=\'gh-ac\']")
-        public WebElement requestInput;
+    private static final String REQUEST_INPUT_LOCATOR = "//*[@id='gh-ac']";
+    private static final String SEARCH_BUTTON_LOCATOR = "//*[@id='gh-btn']";
 
-        @FindBy(xpath = "//*[@id=\'gh-btn\']")
-        public WebElement searchButton;
+        @FindBy(xpath = REQUEST_INPUT_LOCATOR)
+        public HtmlElement requestInput;
+
+        @FindBy(xpath = SEARCH_BUTTON_LOCATOR)
+        public HtmlElement searchButton;
 
     /**
      * Writes request in searchArrow and clicks on search button
